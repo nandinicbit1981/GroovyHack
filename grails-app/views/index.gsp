@@ -1,3 +1,4 @@
+%{--
 <!DOCTYPE html>
 <html>
 	<head>
@@ -120,3 +121,32 @@
 		</div>
 	</body>
 </html>
+--}%
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crush the Rust</title>
+</head>
+
+<script type="text/javascript" src="${resource()}/js/jquery.min.js"></script>
+<script type="text/javascript" src="${resource()}/js/main.js"></script>
+<script type="text/javascript" src="${resource()}/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="${resource()}/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="${resource()}/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="${resource()}/css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="${resource()}/css/style.css">
+
+
+<body class="background-dd">
+<div class="button-div center">
+	<div class="btn btn-lg" id="start">
+		<a href="${resource()}/characters">
+			<span class="text-white h3" style="text-decoration: underline;">Start Here Gamer!</span>
+		</a>
+	</div>
+</div>
+</body>
+</html>
+
+
