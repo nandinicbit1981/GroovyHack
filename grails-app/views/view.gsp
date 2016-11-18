@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Crush the Rust</title>
+    <title>Crush the Grails</title>
 </head>
 <script type="text/javascript" src="../../js/jquery.min.js"></script>
 <script type="text/javascript" src="../../js/main.js"></script>
