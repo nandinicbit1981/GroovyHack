@@ -21,7 +21,7 @@ environments {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             //url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
-            url = "jdbc:mysql://localhost:3306/DungeonsAndDragons?useUnicode=yes&characterEncoding=UTF-8"
+            url = "jdbc:mysql://localhost:3306/DungeonsAndDragons?user=root&password=root&useUnicode=yes&characterEncoding=UTF-8"
             username = "root"
             password = "root"
         }
@@ -30,7 +30,7 @@ environments {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             //url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
-            url = "jdbc:mysql://localhost:3306/DungeonsAndDragons?useUnicode=yes&characterEncoding=UTF-8"
+            url = "jdbc:mysql://localhost:3306/DungeonsAndDragons?user=root&password=root&useUnicode=yes&characterEncoding=UTF-8"
             username = "root"
             password = "root"
         }
@@ -39,7 +39,7 @@ environments {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             //url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
-            url = "jdbc:mysql://localhost:3306/DungeonsAndDragons?useUnicode=yes&characterEncoding=UTF-8"
+            url = "jdbc:mysql://localhost:3306/DungeonsAndDragons?user=root&password=root&useUnicode=yes&characterEncoding=UTF-8"
             username = "root"
             password = "root"
             properties {
